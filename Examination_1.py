@@ -10,3 +10,14 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+price = int(input())
+amount = int(input())
+total = price * amount
+discount = total * 20/100
+net_price = total - discount
+if amount >= 10 :
+    print("ได้ส่วนลด 20 %")
+elif amount >= 5 and <10 :
+    print("ได้ส่วนลด 10 %")
+else :
+    print("ไม่ได้รับส่วนลด")
